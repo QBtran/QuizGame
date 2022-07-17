@@ -16,19 +16,24 @@ margin: 12px 12px;
 
 
 
-
-header{
+Nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
 
+
+width: 100%;
+top: 0%;
+
+
   ul {
    
     position: absolute;
-    top: 4.5%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    
     
     li {
       list-style: none;

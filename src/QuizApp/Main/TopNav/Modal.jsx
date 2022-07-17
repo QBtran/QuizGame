@@ -73,9 +73,9 @@ const Modal = ({ login, error }) => {
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
+              {/* <h5 class="modal-title" id="exampleModalLabel">
                 Login
-              </h5>
+              </h5> */}
               <button
                 type="button"
                 class="btn-close"
@@ -83,47 +83,39 @@ const Modal = ({ login, error }) => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body signup">
               <form onSubmit={submitHandler}>
                 <div className="form-inner">
+                  {/* <h2>Login</h2> */}
                   {error !== "" ? <div className="error">{error}</div> : ""}
                   <div className="form-group">
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Sign up</label>
                     <input
                       type="text"
                       name="name"
                       id="name"
+                      placeholder="User name"
                       onChange={(e) =>
                         setDetails({ ...details, name: e.target.value })
                       }
                       value={details.name}
                     />
                   </div>
+
                   <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      onChange={(e) =>
-                        setDetails({ ...details, email: e.target.value })
-                      }
-                      value={details.email}
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="password">Password</label>
+                    {/* <label htmlFor="password">Password</label> */}
                     <input
                       type="password"
                       name="password"
                       id="password"
+                      placeholder="Password"
                       onChange={(e) =>
                         setDetails({ ...details, password: e.target.value })
                       }
                       value={details.password}
                     />
                   </div>
-                  <input type="submit" value="LOGIN" />
+                  {/* <input type="submit" value="LOGIN" /> */}
                 </div>
               </form>
             </div>

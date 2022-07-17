@@ -2,13 +2,14 @@ import "../TopNav/TopNav.scss";
 import logo from "../asset/quiz.png";
 import "../TopNav/Btn.scss";
 import Box from "./Btn";
+import Body from "./body/Body.jsx";
 
 const TopNav = () => {
   return (
     <div>
       <header>
-        <img className="logo" src={logo} alt="logo"></img>
         <nav>
+          <img className="logo" src={logo} alt="logo"></img>
           <ul>
             <li>
               <a href="#">Home</a>
@@ -23,9 +24,12 @@ const TopNav = () => {
               <a href="#">Top-Score</a>
             </li>
           </ul>
+          <Box />
         </nav>
-        <Box />
       </header>
+      <body>
+        <Body />
+      </body>
     </div>
   );
 };
