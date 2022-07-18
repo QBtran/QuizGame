@@ -3,6 +3,7 @@ import logo from "../asset/quiz.png";
 import "../TopNav/Btn.scss";
 import Box from "./Btn";
 import Body from "./body/Body.jsx";
+import Footer from "./footer/Footer";
 
 const TopNav = () => {
   return (
@@ -30,6 +31,9 @@ const TopNav = () => {
       <body>
         <Body />
       </body>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
