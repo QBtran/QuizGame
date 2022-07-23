@@ -6,17 +6,6 @@ const Body = () => {
     <>
       <div className="container">
         <div className="content">
-          {/* <div>
-            <h1 className="text_shadows">Some thing about us</h1>
-            <div className="line">
-              <p className="lineUp  ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-                sapiente, explicabo cum voluptatum perferendis molestiae
-                laudantium, quaerat aut quis quia deserunt necessitatibus quos.
-                Molestias itaque sunt porro nostrum consequuntur sed.
-              </p>
-            </div>
-          </div> */}
           <div>
             <h2 className="text_shadows">What Q-Quiz do?</h2>
             <div className="line">

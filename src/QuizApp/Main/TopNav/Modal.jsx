@@ -89,7 +89,7 @@ const Modal = ({ login, error }) => {
                   {/* <h2>Login</h2> */}
                   {error !== "" ? <div className="error">{error}</div> : ""}
                   <div className="form-group">
-                    <label htmlFor="name">Sign up</label>
+                    <label htmlFor="name">Login</label>
                     <input
                       type="text"
                       name="name"
