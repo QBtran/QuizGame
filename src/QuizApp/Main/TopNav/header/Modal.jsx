@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../TopNav/Btn.scss";
+import "../header/Btn.scss";
 const Modal = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");

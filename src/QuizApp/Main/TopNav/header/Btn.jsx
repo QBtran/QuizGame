@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../TopNav/Btn.scss";
+import "../header/Btn.scss";
 import Modal from "./Modal";
 
 const Box = () => {
