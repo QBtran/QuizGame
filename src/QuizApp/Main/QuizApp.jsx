@@ -1,9 +1,11 @@
 import React from "react";
-import TopNav from "./TopNav/TopNav";
+import Quiz from "./Q-QUIZ/Quiz/Quiz";
+// import Topic from "./Q-QUIZ/Top-pic/Topic";
 const QuizApp = () => {
   return (
     <div>
-      <TopNav />
+      {/* <Topic /> */}
+      <Quiz />
     </div>
   );
 };

@@ -4,14 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Quiz from "./QuizApp/Main/Q-QUIZ/Quiz";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="Q-Quiz" element={<Quiz />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
